@@ -7,11 +7,10 @@ new Vue({
         operator: null,
         operatorClicked: false,
         second: '',
-        third: '',
         list: [],
         lists: [],
         sign: "",
-        second: ''
+        
     },
     mounted() {
         if (localStorage.list) {
